@@ -14,7 +14,7 @@ function App() {
     setLoading(true);
     setReport('');
     try {
-      const response = await fetch('/research', {
+        const response = await fetch('https://fictional-journey-pjw9rj5x9746h7rj7-8000.app.github.dev/research', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query })
