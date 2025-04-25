@@ -24,12 +24,15 @@ For more information read [documentation](./documentation.pdf)
    ```bash
    git clone https://github.com/nikhilcramakrishnan/web-research-agent.git
    cd web-research-agent
+   
    ```
 
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   crawl4ai-setup
    ```
+
 
 3. Set up environment variables (create a `.env` file):
    ```
@@ -88,4 +91,5 @@ print(result.get("final_report"))
 ```
 
 Also you can use the react frontend for a better user experience.
-NB: The deployed model on vercel, would have less performance as our scrapping tool can't be installed on free tier limitations. Please understand that web scrapping won't work in that scenerio.
+
+NB: The deployed version of this agent available on the web (vercel) would have less performance as our scrapping tool can't be installed on free tier limitations. Please understand that web scrapping won't work in that scenerio. Please Run the agent by cloning this repository for optimal performance
