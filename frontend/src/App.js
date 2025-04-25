@@ -14,7 +14,7 @@ function App() {
     setLoading(true);
     setReport('');
     try {
-        const response = await fetch('https://web-research-agent-fcwej9dh7lrxg52mr7sten.streamlit.app:8000/research', {
+        const response = await fetch('https://web-research-agent-4rba.onrender.com/research', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query })
