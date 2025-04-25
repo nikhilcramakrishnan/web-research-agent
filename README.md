@@ -88,3 +88,4 @@ print(result.get("final_report"))
 ```
 
 Also you can use the react frontend for a better user experience.
+NB: The deployed model on vercel, would have less performance as our scrapping tool can't be installed on free tier limitations. Please understand that web scrapping won't work in that scenerio.
